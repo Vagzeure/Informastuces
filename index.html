@@ -1,13 +1,166 @@
 <!DOCTYPE html>
-<html lang="fr">
+
+<html lang="fr" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
+    <title>Inform'astuces</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="des-astuces.png"/>
-    <title>Astuces Maman</title>
 </head>
+
 <body>
-    <h1>thgrfg</h1>
-    <h2>frf</h2>
+    <div class="sidebar close">
+        <div class="logo-details">
+            <i class="bx bx-menu" id="btn"></i>
+            <span class="logo_name">Inform'astuces</span>
+        </div>
+        <ul class="nav-links">
+            <p class="title">Général</p>
+            <li>
+                <a div="Accueil" href="index.html">
+                    <i class='bx bx-home'></i>
+                    <span class="link_name">Accueil</span>
+                </a>
+                <ul class="sub-menu blank"> <!-- C'est l'info-bulle -->
+                    <li><a class="link_name" href="#">Accueil</a></li>
+                </ul>
+            </li>
+            <p class="title">Ordinateur</p>
+            <li>
+                <div class="icon-link">
+                    <a div="Ordinateur" href="google.html">
+                        <i class='bx bxl-google'></i>
+                        <span class="link_name">Google</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Google</a></li>
+                    <li><a href="#">Télécharger une musique</a></li>
+                    <li><a href="#">Favoris</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="icon-link">
+                    <a div="Ordinateur" href="pdf.html">
+                        <i class='bx bxs-file-pdf'></i>
+                        <span class="link_name">PDF</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">PDF</a></li>
+                    <li><a href="#">Ajouter une signature</a></li>
+                    <li><a href="#">Remplir le PDF</a></li>
+                </ul>
+            </li>
+            <p class="title">Portable</p>
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <i class='bx bxl-play-store'></i>
+                        <span class="link_name">Play Store</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Play Store</a></li>
+                    <li><a href="#">Télécharger une application</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <i class='bx bx-scan'></i>
+                        <span class="link_name">Scan</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Scan</a></li>
+                    <li><a href="#">Scanner un fichier</a></li>
+                </ul>
+            </li>
+            <!-- <p class="title">Tablette</p>
+            <li>
+                <div class="icon-link">
+                    <a href="#">
+                        <i class='bx bx-book-alt'></i>
+                        <span class="link_name">Tablette</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Tablette</a></li>
+                    <li><a href="#">Tuto 1</a></li>
+                    <li><a href="#">Tuto 2</a></li>
+                    <li><a href="#">Tuto 3</a></li>
+                </ul>
+            </li> -->
+            <p class="title">Astuces</p>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-keyboard'></i>
+                    <span class="link_name">Astuces</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Astuces</a></li>
+                </ul>
+            </li>
+            <!-- <p class="title">Paramètres</p>
+            <li>
+                <a href="#">
+                    <i class='bx bx-cog'></i>
+                    <span class="link_name">Paramètres</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Paramètres</a></li>
+                </ul>
+            </li> -->
+        </ul>
+    </div>
+
+    <section class="home-section">
+        <div class="img_IPLN">
+            <img src="Assets/IPLN.png">
+        </div>
+        <div class="home-content">
+            <p>Coucou ! Voici ton site fait spécialement pour toi, j'espère que ça t'aidera et te plaira !<br>
+               Il te permettra je l'espère d'apprendre des choses ou même d'apprendre à d'autres personnes par la suite certaines choses,
+               en tout cas c'est le but !<br><br>
+               Faisons une petite présentation brève pour que tu ne sois pas perdue au départ :<br><br>
+               Sur la gauche, tu as le menu, c'est ce qui te permettra de naviguer entre les différents tutos.
+               J'ai mis sur ce menu vertical des titres, qui te permettent de voir les catégories de tutos (ordinateurs, tablette etc.)
+               Dans chaque catégorie, tu auras des sous-parties pour mieux te repérer comme par exemple : Les mails. Et dans les mails
+               il y aura différents tuto associés. Prenons un exemple : <br>
+               Si tu passes ta souris sur la première sous-partie d'Ordinateur, tu peux voir le nom de la sous-partie ainsi que les différents
+               tutos que tu peux y trouver ! 😊<br><br>
+               Enfin, si tu cliques sur le bouton tout en haut du menu, celui-ci te permet d'ouvrir le menu et donc de mieux voir.
+               Pour ouvrir les menus, tu dois cliques sur la flèches qui descend pour afficher les différents tutos et tu recliques
+               dessus pour remonter les tutos.<br><br>
+               Je pense que tu sais à peu près tout du fonctionnement, si c'est des choses viennent à changer je te le dirai !<br>
+               Bon apprentissage ! 😎</p>
+        </div>
+    </section>
+
+    <!-- #region Changement de pages sur une une seule même page -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function ()
+        {
+            $("Accueil").load("index.html");
+            $("Ordinateur").load("google.html");
+        });
+    </script>
+    <!-- #endregion -->
+
+    <script src="JS/script.js"></script>
+
 </body>
+
 </html>
