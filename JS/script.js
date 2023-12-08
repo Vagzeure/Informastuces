@@ -23,7 +23,6 @@ TestList.forEach(Test =>
 {
   Test.addEventListener('click', () => {
     document.querySelector('.OnClick')?.classList.remove('OnClick');
-    Test.classList.add('OnClick');
   })
 })
 //#endregion
